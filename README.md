@@ -4,10 +4,10 @@ This is a template repository.
 
 ## Variables
 
-- `[[PROJECT_NAME]]`
-- `[[USER_NAME]]`
+- `[[PROJECT_NAME_APPLY_DOWNCASE]]`
+- `[[USER_NAME_APPLY_DOWNCASE]]`
 - `[[USER_EMAIL]]`
-- `[[APP_NAME]]`
+- `[[APP_NAME_APPLY_DOWNCASE]]`
 - `[[VERSION]]`
 - `[[GREETING]]`
 - `[[MAIN_FUNCTION]]`
