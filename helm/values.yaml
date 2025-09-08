@@ -1,0 +1,16 @@
+global:
+  appName: "[[APP_NAME:toUpperCase]]"
+  version: "[[VERSION:gsub(.,-)]]"
+  greetingMessage: "[[GREETING:toUpperCase:gsub(WORLD,HELM)]]"
+
+service:
+  name: "[[PROJECT_NAME:toLowerCase:gsub( ,-)]]-service"
+  type: ClusterIP
+  port: 80
+
+deployment:
+  replicaCount: 1
+  image:
+    repository: "myrepo/[[APP_NAME:toLowerCase]]"
+    tag: "[[VERSION]]"
+  name: "[[APP_NAME:toLowerCase]]-deployment"

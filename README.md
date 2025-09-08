@@ -4,12 +4,12 @@ This is a template repository.
 
 ## Variables
 
-- `[[PROJECT_NAME_APPLY_DOWNCASE]]`
-- `[[USER_NAME_APPLY_DOWNCASE]]`
+- `[[PROJECT_NAME:toDownCase]]`
+- `[[USER_NAME:toDownCase]]`
 - `[[USER_EMAIL]]`
-- `[[APP_NAME_APPLY_DOWNCASE]]`
+- `[[APP_NAME:toDownCase]]`
 - `[[VERSION]]`
 - `[[GREETING]]`
-- `[[MAIN_FUNCTION_APPLY_DOWNCASE_APPLY_REPLACE]]`
+- `[[MAIN_FUNCTION:toDownCase]]`
 - `[[HELPER_METHOD]]`
-- `[[PROCESS_FUNCTION_APPLY_REPLACE]]`
+- `[[PROCESS_FUNCTION:gsub( ,_):toUpperCase]]`

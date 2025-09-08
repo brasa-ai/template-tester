@@ -1,4 +1,4 @@
 {
-  "name": "[[APP_NAME_APPLY_DOWNCASE]]",
-  "version": "[[VERSION_APPLY_UPPERCASE]]"
+  "name": "[[APP_NAME:toDownCase]]",
+  "version": "[[VERSION:toUpperCase]]"
 }

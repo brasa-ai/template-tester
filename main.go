@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("[[MAIN_FUNCTION]]")
+	fmt.Println("[[MAIN_FUNCTION:toDownCase]]")
 }

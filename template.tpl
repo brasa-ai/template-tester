@@ -1,1 +1,1 @@
-<p>Hello, [[NAME]]</p>
+<p>Hello, [[USER_NAME:toUpperCase]]</p>
